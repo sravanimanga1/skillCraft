@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+#navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#333;
+    padding:15px 0;
+    transition:0.3s;
+}
+
+#navbar ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:0;
+}
+
+#navbar ul li{
+    margin:0 20px;
+}
+
+#navbar ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.content{
+    margin-top:100px;
+    text-align:center;
+    height:2000px;
+}
+#navbar.scrolled{
+    background: red;
+}
